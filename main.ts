@@ -10,8 +10,14 @@ mode = 0
 forever(function () {
     if (mode == 1) {
         strip.photonForward(1)
-    } else if (false) {
-    	
+    } else if (mode == 2) {
+        strip.showAnimation(light.rainbowAnimation, 500)
+    } else if (mode == 3) {
+        strip.setAll(0xff0000)
+        pause(1000)
+        strip.setAll(0x007fff)
+        pause(1000)
+        strip.setAll(0x7f00ff)
     } else {
     	
     }
