@@ -1,4 +1,4 @@
-pins.P28.onEvent(PinEvent.PulseHigh, function () {
+pins.P15.onEvent(PinEvent.PulseHigh, function () {
     mode = mode + 1
     if (mode > 3) {
         mode = 0
