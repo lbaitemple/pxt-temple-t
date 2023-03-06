@@ -21,4 +21,5 @@ forever(function () {
     } else {
     	
     }
+    pause(500)
 })
