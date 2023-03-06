@@ -7,6 +7,7 @@ pins.P15.onEvent(PinEvent.PulseHigh, function () {
 let mode = 0
 let strip = light.createStrip(pins.P28, 30)
 mode = 0
+light.setBrightness(150)
 forever(function () {
     if (mode == 1) {
         strip.photonForward(1)
