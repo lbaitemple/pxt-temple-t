@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "adafruit-metro-m0-express": "*"
+        "rpi2040": "github:lbaitemple/pxt-rpi2040#155a6be19c61f118858c0d24a5c7e4a3da6cd5f1",
+        "light": "*"
     },
     "files": [
         "README.md",
