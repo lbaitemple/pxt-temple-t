@@ -1,4 +1,4 @@
-pins.LED.onEvent(PinEvent.PulseHigh, function () {
+pins.P28.onEvent(PinEvent.PulseHigh, function () {
     mode = mode + 1
     if (mode > 3) {
         mode = 0
